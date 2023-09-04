@@ -1,38 +1,14 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+  width: 100%;
+  background-image: url('https://www.thespruce.com/thmb/WHDh42dmxIiAg5YuTftvBrqLevk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/zoysia-grass-plant-profile-4691117-hero-2c01933247654f5b8c694a49eb6fa7bc.jpg');
+  /* background-color: white; */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
