@@ -51,6 +51,12 @@
     font-weight: 400;
 }
 
+.data-container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
 .element {
     display: flex;
     margin: auto;
@@ -64,11 +70,6 @@
     text-align: center;
 }
 
-.data-container {
-    display: flex;
-    margin-top: 50px;
-    justify-content: center;
-}
 
 .data {
     font-size: 34px;
